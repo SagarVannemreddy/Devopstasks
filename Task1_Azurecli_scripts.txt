@@ -1,0 +1,22 @@
+AZ Cli:  Write a script to create 2 VMs in 2 different subnets in an existing VNet (Create the Vnet from Portal, if one doesn't exist)
+     (Create a bash script, so create it on a Linux Virtual machine provisioned through Azure)
+
+
+VM 1: 
+az.cmd vm create --resource-group AZ_DEMO --name demoone --location EastUS --image UbuntuLTS --size standard_B1s --admin-username sagar --admin-password Hanshik1234@ --vnet-name Task_vnt --subnet taskone --output json
+
+VM 2: 
+az.cmd vm create --resource-group AZ_DEMO --name demotwo --location EastUS --image UbuntuLTS --size standard_B1s --admin-username sagar --admin-password Hanshik1234@ --vnet-name Task_vnt --subnet tasktwo --output json
+
+
+AZ Cli: Create a user account from Command line and give it contribute permissions at the Subscription level.
+ Need help on this
+
+
+AZ Cli: write a script to find all the resource groups within your subscription
+ (edited) 
+az.cmd group list
+
+
+ 
+az.cmd group list
