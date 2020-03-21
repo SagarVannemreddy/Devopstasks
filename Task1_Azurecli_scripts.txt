@@ -10,7 +10,7 @@ az.cmd vm create --resource-group AZ_DEMO --name demotwo --location EastUS --ima
 
 
 AZ Cli: Create a user account from Command line and give it contribute permissions at the Subscription level.
- Need help on this
+ Need help on this task
 
 
 AZ Cli: write a script to find all the resource groups within your subscription
